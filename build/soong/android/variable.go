@@ -69,6 +69,10 @@ type Product_variables struct {
 		Header_libs []string
 		Shared_libs []string
 	}
+	Target_surfaceflinger_fod_lib struct {
+		Cflags []string
+		Whole_static_libs []string
+	}
 }
 
 type ProductVariables struct {
@@ -93,4 +97,5 @@ type ProductVariables struct {
 	Uses_qcom_um_4_4_family  *bool `json:",omitempty"`
 	Uses_qcom_um_4_9_family  *bool `json:",omitempty"`
 	Uses_qcom_um_4_14_family  *bool `json:",omitempty"`
+	Target_surfaceflinger_fod_lib  *string `json:",omitempty"`
 }
