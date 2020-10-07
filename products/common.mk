@@ -64,6 +64,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/nitrogen/prebuilt/common/etc/calibration_cad.xml:system/etc/calibration_cad.xml
 
+# Audio files
+$(call inherit-product, vendor/nitrogen/products/google_audio.mk)
+
 # Extra packages
 PRODUCT_PACKAGES += \
     Launcher3 \
