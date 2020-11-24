@@ -71,6 +71,7 @@ $(call inherit-product, vendor/nitrogen/products/google_audio.mk)
 PRODUCT_PACKAGES += \
     Launcher3 \
     messaging \
+    QuickAccessWallet \
     Stk \
     Terminal
 
