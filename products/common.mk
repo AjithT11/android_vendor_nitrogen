@@ -121,6 +121,10 @@ PRODUCT_PACKAGES += \
     ThemePicker \
     DefaultThemesStub
 
+# FOD Animations
+PRODUCT_PACKAGES += \
+    FodAnimationResources
+
 # Boot animations
 $(call inherit-product-if-exists, vendor/nitrogen/products/bootanimation.mk)
 
